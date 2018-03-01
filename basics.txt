@@ -1,3 +1,4 @@
 - Autenticazione via email-pwd checkate su db e tramite oauth
 - Mostrare una lista di task da fare.
 - Task (utente, segnare come completo, segnare percentuale, modifica, delete)
+- funziona git/github?
