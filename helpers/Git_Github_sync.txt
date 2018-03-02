@@ -22,3 +22,7 @@ Connect local file system to remote github repository with:
 Now push the local repository inside github's one:
 - git push origin master
 
+
+//NOTES:
+For adding all untracked files and modifications before commiting them:
+- git add -A
