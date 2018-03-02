@@ -24,3 +24,10 @@ Generate db tables:
 - mix ecto.migrate
 
 <model>_path should refer to router.ex and the naming restful conventions.
+
+Add Dependency:
+1) Open mix.exs file
+2) inside def application insert new dependency
+3) inside defp deps insert new dependency along with its version
+4) - mix deps.get
+

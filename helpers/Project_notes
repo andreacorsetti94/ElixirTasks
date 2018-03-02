@@ -1,0 +1,1 @@
+Attraverso @conn.assigns.user == true/false, si riusciva a identificare se l'utente è loggato oppure no...(quindi immagino che in fase di autenticazione questa proprietà sia settata)
