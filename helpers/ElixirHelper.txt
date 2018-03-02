@@ -1,0 +1,18 @@
+Create new elixir project:
+- mix new <project_name>
+
+Create new Phoenix/Elixir project:
+- mix phx.new <project_name>
+For configuring db go in config/dev.exs and run:
+- mix ecto.create
+For start the app:
+mix phx.server
+
+Check Postgres DB:
+- sudo -u postgres -i
+- psql -d <db_name>
+
+Directory:
+lib/<proj_name> contains business logic and db access
+lib/<proj_name>_web contains code to communicate with web
+
