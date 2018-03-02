@@ -1,0 +1,24 @@
+Use Git/Github:
+
+- git config --global user.name andreacorsetti94
+- git config --global user.email andrea.corsetti94@gmail.com
+
+Create main folder on file system, let's call it "Main"
+- git init Main
+- cd Main
+
+Create files inside Main and add them:
+- git add File.txt
+
+Commit them
+- git commit -m "message"
+
+On github create a new repository with the same name of the main folder, so Folder in this case.
+Connect local file system to remote github repository with:
+- git remote add origin https://github.com/andreacorsetti94/Main.git
+
+*andreacorsetti94 is the same user.name described above, and <Main>.git is the name of the main folder created before.
+
+Now push the local repository inside github's one:
+- git push origin master
+
