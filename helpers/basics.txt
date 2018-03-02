@@ -2,3 +2,5 @@
 - Mostrare una lista di task da fare.
 - Task (utente, segnare come completo, segnare percentuale, modifica, delete)
 - funziona git/github?
+
+Task: utente, content, perc completamento, 
